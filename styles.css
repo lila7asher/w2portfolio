@@ -1,0 +1,17 @@
+
+
+
+h1{
+    color:blue;
+}
+
+
+
+/* FLEXBOX INFO */
+.main-nav{
+    color: white;
+    background-color: navy;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
