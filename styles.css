@@ -9,12 +9,22 @@ a{
     color: orange;
 }
 
+.gal-img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
 /* FLEXBOX INFO */
 .main-nav{
     color: white;
     background-color: navy;
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery{
+    display: flex;
     flex-wrap: wrap;
 }
 
