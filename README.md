@@ -1,0 +1,1 @@
+This is an example portfolio project which I made while following along in my first coding class.

@@ -1,35 +1,200 @@
 
-
-
-h1{
-    color:blue;
+/***********
+GENERAL
+***********/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
-a{
-    color: orange;
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
-.gal-img{
-    max-height: 200px;
-    max-width: 200px;
+a {
+    text-decoration: none;
 }
 
-/* FLEXBOX INFO */
-.main-nav{
-    color: white;
-    background-color: navy;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+h1 {
+    font-size: 1.75em;
+    font-weight: 700;
 }
 
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
+h2 {
+    font-size: 0.75em;
+    margin: -5 0 0;
 }
 
-.main-link{
-    padding: 1em;
-    border-color: coral;
-    margin: 2em;
+h3 {
+    margin: 0 0 1em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/***********
+HEADER
+***********/
+header {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+}
+
+#logo {
+    text-align: center;
+}
+
+
+/***********
+NAVIGATION
+***********/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 10px;
+}
+
+
+/***********
+FOOTER
+***********/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    padding: 50px 0 0 0;
+    clear: both;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+/***********
+PORFOLIO PAGE
+***********/
+
+#gallery {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+}
+
+
+/***********
+ABOUT PAGE
+***********/
+
+.profile-photo {
+    margin: 0 auto 30px;
+    max-width: 150px;
+    display: block;
+    border-radius: 100%;
+}
+
+
+/***********
+CONTACT PAGE
+***********/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+    background-repeat: no-repeat;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png')
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png')
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png')
+}
+
+
+/***********
+COLORS
+***********/
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: cadetblue;
+    border-color: darkblue;
+}
+
+/* NAV BACKGROUND ON MOBILE */
+nav {
+    background-color: lightblue;
+}
+
+/* LOGO COLOR */
+h1,
+h2 {
+    color: #fff;
+}
+
+/* links */
+a {
+    color: slateblue;
+}
+
+nav a,
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover,
+nav a.selected {
+    color: blueviolet;
 }
